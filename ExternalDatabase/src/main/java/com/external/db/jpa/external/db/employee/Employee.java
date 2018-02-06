@@ -12,7 +12,7 @@ public class Employee {
     private String employeeId;
     private String firsName;
     private String lastName;
-    private Contact contact;
+
 
     public Employee() {
     }
@@ -21,7 +21,6 @@ public class Employee {
         this.employeeId = employeeId;
         this.firsName = firsName;
         this.lastName = lastName;
-        this.contact = contact;
     }
 
     public String getEmployeeId() {
@@ -46,13 +45,5 @@ public class Employee {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    public Contact getContact() {
-        return contact;
-    }
-
-    public void setContact(Contact contact) {
-        this.contact = contact;
     }
 }

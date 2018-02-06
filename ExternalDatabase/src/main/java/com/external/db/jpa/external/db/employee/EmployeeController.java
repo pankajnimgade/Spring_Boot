@@ -12,27 +12,27 @@ public class EmployeeController {
     private EmployeeService employeeService;
 
     @RequestMapping(value = "/employees", method = RequestMethod.GET)
-    public List<Employee> getAllEmployeeList(){
-       return employeeService.getAllEmployees();
+    public List<Employee> getAllEmployeeList() {
+        return employeeService.getAllEmployees();
     }
 
     @RequestMapping(value = "/employees", method = RequestMethod.POST)
-    public Employee addEmployee(@RequestBody Employee employee){
+    public Employee addEmployee(@RequestBody Employee employee) {
         return employeeService.addEmployee(employee);
     }
 
     @RequestMapping(value = "/employees/{employeeId}", method = RequestMethod.GET)
-    public Employee getEmployeeWithId(@PathVariable String employeeId){
+    public Employee getEmployeeWithId(@PathVariable String employeeId) {
         return employeeService.getEmployeeWithID(employeeId);
     }
 
-    @RequestMapping(value = "/employees", method = RequestMethod.PUT)
-    public Employee updateEmployee(@RequestBody Employee employee){
+    @RequestMapping(value = "/employees/{employeeId}", method = RequestMethod.PUT)
+    public Employee updateEmployee(@PathVariable String employeeID,@RequestBody Employee employee) {
         return employeeService.updateEmployee(employee);
     }
 
-    @RequestMapping(value = "/employees/{employeeId}")
-    public boolean deleteEmployee(@PathVariable String employeeId){
+    @RequestMapping(value = "/employees/{employeeId}", method = RequestMethod.DELETE)
+    public boolean deleteEmployee(@PathVariable String employeeId) {
         return employeeService.deleteEmployee(employeeId);
     }
 }
