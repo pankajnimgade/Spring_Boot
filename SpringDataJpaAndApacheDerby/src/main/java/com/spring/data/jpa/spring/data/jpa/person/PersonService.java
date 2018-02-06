@@ -14,10 +14,10 @@ public class PersonService {
 
 
     public List<Person> getAllPersons() {
-        List<Person> personList = new ArrayList<>();
-        personRepository.save(
+/*        personRepository.save(
                 new Person("1", "first Name", "last Name",
-                        "603-525-1124", "kiba@inuyasha.com", "Ahmrest, NH"));
+                        "603-525-1124", "kiba@inuyasha.com", "Ahmrest, NH"));*/
+        List<Person> personList = new ArrayList<>();
         personRepository.findAll().forEach(personList::add);
         return personList;
 //        return (List<Person>) personRepository.findAll();
@@ -25,5 +25,19 @@ public class PersonService {
 
     public void addPerson(Person person) {
         personRepository.save(person);
+    }
+
+    public Person getPerson(String id) {
+        return personRepository.findOne(id);
+    }
+
+    public void updatePerson(String id, Person person) {
+        personRepository.save(person);
+    }
+
+    public void deletePerson(String id) {
+        if (personRepository.exists(id)) {
+            personRepository.delete(id);
+        }
     }
 }
