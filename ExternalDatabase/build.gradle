@@ -18,6 +18,15 @@ group = 'com.external.db.jpa'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
+jar {
+	baseName = 'myapp'
+	version =  '0.5.0'
+}
+
+bootRepackage {
+	mainClass = 'com.external.db.jpa.external.db.ExternalDataBaseApplication'
+}
+
 repositories {
 	mavenCentral()
 }

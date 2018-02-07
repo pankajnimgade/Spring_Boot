@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efc34cd1-14f6-42ec-8591-2ad6627bb1a8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/contact/Contact.class" afterPath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/contact/Contact.class" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/contact/ContactController.class" afterPath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/contact/ContactController.class" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/contact/ContactRepository.class" afterPath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/contact/ContactRepository.class" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/contact/ContactService.class" afterPath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/contact/ContactService.class" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/employee/Employee.class" afterPath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/employee/Employee.class" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/employee/EmployeeController.class" afterPath="$PROJECT_DIR$/ExternalDatabase/out/production/classes/com/external/db/jpa/external/db/employee/EmployeeController.class" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/Contact.java" afterPath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/Contact.java" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactController.java" afterPath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactController.java" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactRepository.java" afterPath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactRepository.java" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactService.java" afterPath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactService.java" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/Employee.java" afterPath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeController.java" afterPath="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeController.java" />
-      <change beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change beforePath="$PROJECT_DIR$/ExternalDatabase/build.gradle" afterPath="$PROJECT_DIR$/ExternalDatabase/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,7 +43,43 @@
   <component name="ExternalProjectsManager" storeExternally="true">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$/ExternalDatabase">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExternalDatabase" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExternalDatabase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExternalDatabase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExternalDatabase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ExternalDatabase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="ide" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -78,38 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="154">
               <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,9 +121,10 @@
       <file leaf-file-name="ExternalDataBaseApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/ExternalDataBaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="40" />
               <folding>
+                <element signature="e#270#271#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
               </folding>
             </state>
@@ -150,19 +149,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -179,21 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="78" lean-forward="false" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
@@ -208,18 +185,6 @@
                 <element signature="e#768#769#0" expanded="true" />
                 <element signature="e#816#817#0" expanded="true" />
                 <element signature="e#856#857#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringDataJpaAndApacheDerby/src/main/java/com/spring/data/jpa/spring/data/jpa/person/PersonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1081,8 +1046,8 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="4552790281644" />
-        <entry key="$PROJECT_DIR$/ExternalDatabase" value="1517952046713" />
-        <entry key="$PROJECT_DIR$/ExternalDatabase/build.gradle" value="2145800979" />
+        <entry key="$PROJECT_DIR$/ExternalDatabase" value="1517973808408" />
+        <entry key="$PROJECT_DIR$/ExternalDatabase/build.gradle" value="3831785016" />
         <entry key="$PROJECT_DIR$/SpringDataJpaAndApacheDerby" value="3035787121976" />
         <entry key="$PROJECT_DIR$/SpringDataJpaAndApacheDerby/build.gradle" value="3443679913" />
         <entry key="$PROJECT_DIR$/SpringDataJpaAndApacheDerby/gradle/wrapper/gradle-wrapper.properties" value="3442123891" />
@@ -1662,7 +1627,6 @@
         <option value="$PROJECT_DIR$/SpringDataJpaAndApacheDerby/src/main/java/com/spring/data/jpa/spring/data/jpa/person/PersonRepository.java" />
         <option value="$PROJECT_DIR$/SpringDataJpaAndApacheDerby/src/main/java/com/spring/data/jpa/spring/data/jpa/person/PersonContoller.java" />
         <option value="$PROJECT_DIR$/SpringDataJpaAndApacheDerby/src/main/java/com/spring/data/jpa/spring/data/jpa/person/PersonService.java" />
-        <option value="$PROJECT_DIR$/ExternalDatabase/build.gradle" />
         <option value="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeRespository.java" />
         <option value="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactRespository.java" />
         <option value="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeService.java" />
@@ -1672,6 +1636,7 @@
         <option value="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactRepository.java" />
         <option value="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactService.java" />
         <option value="$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/ExternalDatabase/build.gradle" />
       </list>
     </option>
   </component>
@@ -1700,6 +1665,20 @@
     </navigator>
     <panes>
       <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ExternalDatabase" type="cbb8eebc:String" user="ExternalDatabase" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ExternalDatabase" type="cbb8eebc:String" user="ExternalDatabase" />
+              <item name="ExternalDatabase_main" type="cbb8eebc:String" user="ExternalDatabase_main" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <subPane subId="Project Files">
           <expand>
             <path>
@@ -1763,6 +1742,58 @@
               <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1788,16 +1819,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ExternalDatabase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
@@ -1809,56 +1830,31 @@
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="employee" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SpringDataJpaAndApacheDerby" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring.boot.starter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ExternalDatabase" type="eaaa3913:PackageViewModuleGroupNode" />
             </path>
             <path>
-              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SpringDataJpaAndApacheDerby" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spring.boot.starter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ExternalDatabase" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="ExternalDatabase_main" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SpringDataJpaAndApacheDerby" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SpringDataJpaAndApacheDerby" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SpringDataJpaAndApacheDerby" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring.boot.starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring Boot Starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SpringDataJpaAndApacheDerby" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
+              <item name="spring.boot.starter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ExternalDatabase" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="ExternalDatabase_test" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1883,69 +1879,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExternalDataBaseApplication">
+  <component name="RunManager" selected="Gradle.ExternalDatabase [build]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="ExternalDataBaseApplication" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.external.db.jpa.external.db.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.external.db.jpa.external.db.ExternalDataBaseApplication" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ExternalDatabase_main" />
-      <envs />
-    </configuration>
-    <configuration name="SpringDataJpaAndApacheDerbyApplication" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.spring.data.jpa.spring.data.jpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.spring.data.jpa.spring.data.jpa.SpringDataJpaAndApacheDerbyApplication" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SpringDataJpaAndApacheDerby_main" />
-      <envs />
-    </configuration>
-    <configuration name="StartUpApp" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sprint.boot.starter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sprint.boot.starter.StartUpApp" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spring.boot.starter_main" />
-      <envs />
     </configuration>
     <configuration name="Test101Application" type="Application" factoryName="Application" singleton="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1979,6 +1918,96 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="ExternalDatabase [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ExternalDatabase" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="ExternalDatabase [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ExternalDatabase" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="ExternalDatabase [cleanEclipse]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ExternalDatabase" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanEclipse" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="ExternalDatabase [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ExternalDatabase" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="ExternalDatabase [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ExternalDatabase" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -2040,17 +2069,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Test101Application" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StartUpApp" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SpringDataJpaAndApacheDerbyApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ExternalDataBaseApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [jar]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [clean]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [bootRun]" />
+      <item index="5" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [cleanEclipse]" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.ExternalDataBaseApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SpringDataJpaAndApacheDerbyApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StartUpApp" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [cleanEclipse]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [bootRun]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [clean]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.ExternalDatabase [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -2082,7 +2115,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4030354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4030354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2090,7 +2123,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34493193" sideWeight="0.4940978" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Archetypes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2113,20 +2146,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sprint/boot/starter/hello/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sprint/boot/starter/topic/TopicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sprint/boot/starter/topic/model/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -2349,14 +2368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExternalDatabase/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringDataJpaAndApacheDerby/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -2420,25 +2431,7 @@
         <state relative-caret-position="136">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="78" lean-forward="false" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/ExternalDataBaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2495,25 +2488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
@@ -2548,12 +2526,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/contact/ContactController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="154">
           <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1688#1689#0" expanded="true" />
             <element signature="e#1752#1753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="78" lean-forward="false" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/ExternalDataBaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExternalDatabase/build/resources/main/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExternalDatabase/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExternalDatabase/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExternalDatabase/src/main/java/com/external/db/jpa/external/db/employee/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
           </folding>
         </state>
       </provider>
