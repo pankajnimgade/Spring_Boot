@@ -1,7 +1,5 @@
 package com.external.db.jpa.external.db.employee;
 
-import com.external.db.jpa.external.db.contact.Contact;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -9,7 +7,7 @@ import javax.persistence.Id;
 public class Employee {
 
     @Id
-    private String employeeId;
+    private String id;
     private String firsName;
     private String lastName;
 
@@ -17,18 +15,18 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(String employeeId, String firsName, String lastName, Contact contact) {
-        this.employeeId = employeeId;
+    public Employee(String id, String firsName, String lastName) {
+        this.id = id;
         this.firsName = firsName;
         this.lastName = lastName;
     }
 
-    public String getEmployeeId() {
-        return employeeId;
+    public String getId() {
+        return id;
     }
 
-    public void setEmployeeId(String employeeId) {
-        this.employeeId = employeeId;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getFirsName() {

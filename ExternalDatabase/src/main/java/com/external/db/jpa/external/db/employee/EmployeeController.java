@@ -27,7 +27,7 @@ public class EmployeeController {
     }
 
     @RequestMapping(value = "/employees/{employeeId}", method = RequestMethod.PUT)
-    public Employee updateEmployee(@PathVariable String employeeID,@RequestBody Employee employee) {
+    public Employee updateEmployee(@PathVariable String employeeId,@RequestBody Employee employee) {
         return employeeService.updateEmployee(employee);
     }
 

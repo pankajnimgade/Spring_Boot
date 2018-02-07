@@ -12,9 +12,11 @@ public class ContactService {
     @Autowired
     private ContactRepository contactRepository;
 
-    public List<Contact> getAllContacts() {
+    public List<Contact> getAllContacts(String employeeId) {
+
+        //TODO : Need to get only contacts related to the employeeID
         List<Contact> contactList = new ArrayList<>();
-        contactRepository.findAll().forEach(contact -> contactList.add(contact));
+        contactRepository.findByEmployeeId(employeeId).forEach(contact -> contactList.add(contact));
         return contactList;
     }
 
