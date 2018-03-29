@@ -1,5 +1,6 @@
-package test.in28minutes.start;
+package test.in28minutes.start.test.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,11 +11,19 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Pankaj Nimgade
  */
 @RestController
-@RequestMapping("/")
+@RequestMapping("/test")
 public class TestController {
 
+    @Autowired
+    private WelcomeComponent welcomeComponent;
+
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public String defaultGreeting() {
+    public String defaultMessage() {
         return "{\"App\":\"running\"}";
+    }
+
+    @RequestMapping(value = "/greeting")
+    public String getGreeting() {
+        return welcomeComponent.getGreeting();
     }
 }
