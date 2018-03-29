@@ -24,6 +24,7 @@
 hs_err_pid*
 /out
 /.idea/
+/.gradle
 /build
 /ExternalDatabase/build
 /SpringDataJpaAndApacheDerby/build
