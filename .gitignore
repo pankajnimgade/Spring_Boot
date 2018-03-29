@@ -27,4 +27,5 @@ hs_err_pid*
 /build
 /ExternalDatabase/build
 /SpringDataJpaAndApacheDerby/build
-
+/In28Minutes/build
+/In28Minutes/out
