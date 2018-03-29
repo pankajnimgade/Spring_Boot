@@ -1,6 +1,7 @@
 package spring.data.jpa.database.model;
 
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created on 3/28/2018
@@ -25,6 +26,11 @@ public class Student {
 
     @Column(name = "student_age")
     private Integer age;
+
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinTable(name = "Enrollment", joinColumns = {@JoinColumn(name = "student_id")},
+            inverseJoinColumns = {@JoinColumn(name = "course_id")})
+    private List<Course> courses;
 
     public Student(String name, boolean isFullTime, Integer age) {
         this.name = name;
