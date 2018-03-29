@@ -31,6 +31,9 @@ public class Department {
         this.name = name;
     }
 
+    protected Department() {
+    }
+
     public Integer get_Id() {
         return _Id;
     }

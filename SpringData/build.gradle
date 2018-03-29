@@ -34,8 +34,11 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-actuator')
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-web')
-    runtime('org.apache.derby:derby')
 
+
+
+// https://mvnrepository.com/artifact/com.h2database/h2
+    testCompile group: 'com.h2database:h2:1.4.197'
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

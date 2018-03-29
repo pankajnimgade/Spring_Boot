@@ -24,6 +24,9 @@ public class Course {
     @JoinColumn(name = "course_dept_id")
     private Department department;
 
+    public Course() {
+    }
+
     public Course(String name, Department department) {
         this.name = name;
         this.department = department;

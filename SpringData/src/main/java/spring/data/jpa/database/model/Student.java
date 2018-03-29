@@ -27,12 +27,19 @@ public class Student {
     @Column(name = "student_age")
     private Integer age;
 
+    @Embedded
+    private Person attendee;
+
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(name = "Enrollment", joinColumns = {@JoinColumn(name = "student_id")},
             inverseJoinColumns = {@JoinColumn(name = "course_id")})
     private List<Course> courses;
 
-    public Student(String name, boolean isFullTime, Integer age) {
+    public Student() {
+    }
+
+    public Student(Person attendee, String name, boolean isFullTime, Integer age) {
+        this.attendee = attendee;
         this.name = name;
         this.isFullTime = isFullTime;
         this.age = age;
