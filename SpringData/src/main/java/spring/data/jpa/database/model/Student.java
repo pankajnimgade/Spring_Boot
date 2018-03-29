@@ -1,0 +1,62 @@
+package spring.data.jpa.database.model;
+
+import javax.persistence.*;
+
+/**
+ * Created on 3/28/2018
+ *
+ * @author Pankaj Nimgade
+ */
+
+@Entity
+@Table(name = "STUDENT")
+public class Student {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "student_id")
+    private Integer _Id;
+
+    @Column(name = "student_name")
+    private String name;
+
+    @Column(name = "student_fullTime")
+    private boolean isFullTime;
+
+    @Column(name = "student_age")
+    private Integer age;
+
+    public Student(String name, boolean isFullTime, Integer age) {
+        this.name = name;
+        this.isFullTime = isFullTime;
+        this.age = age;
+    }
+
+    public Integer get_Id() {
+        return _Id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public boolean isFullTime() {
+        return isFullTime;
+    }
+
+    public void setFullTime(boolean fullTime) {
+        isFullTime = fullTime;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+}
