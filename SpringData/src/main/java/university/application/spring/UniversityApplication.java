@@ -20,16 +20,16 @@ import university.application.spring.database.repo.StudentRepository;
 public class UniversityApplication implements CommandLineRunner {
 
     @Autowired
-    StudentRepository studentRepository;
+    private StudentRepository studentRepository;
 
     @Autowired
-    StaffRepository staffRepository;
+    private StaffRepository staffRepository;
 
     @Autowired
-    CourseRepository courseRepository;
+    private CourseRepository courseRepository;
 
     @Autowired
-    DepartmentRepository departmentRepository;
+    private DepartmentRepository departmentRepository;
 
     public static void main(String[] args) {
         SpringApplication.run(UniversityApplication.class, args);

@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/In28Minutes" />
+            <option value="$PROJECT_DIR$/MongoDB" />
+            <option value="$PROJECT_DIR$/SpringBootTesting" />
             <option value="$PROJECT_DIR$/SpringData" />
           </set>
         </option>
