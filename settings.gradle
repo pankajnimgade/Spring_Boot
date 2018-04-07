@@ -3,4 +3,6 @@ include 'In28Minutes'
 include 'SpringData'
 include 'MongoDB'
 include 'SpringBootTesting'
+include 'TestStockViewer'
+include 'SpringBootEssential'
 
