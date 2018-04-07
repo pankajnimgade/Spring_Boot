@@ -15,3 +15,4 @@ public class SpringBootEssentialsApplication {
         SpringApplication.run(SpringBootEssentialsApplication.class, args);
     }
 }
+// java -jar -Dspring.profiles.active=dev SpringBootEssential-1.0-SNAPSHOT.jar
